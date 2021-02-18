@@ -1,9 +1,15 @@
 ---
 
-title: "이 블로그 설명서"
+title: "About Me"
 permalink: /about/
+author_profile: true
 layout: single
-comment: true
+read_time: false
+show_date: false
+
+comment: false
+toc: true
+toc_sticky: true
 
 ---
 

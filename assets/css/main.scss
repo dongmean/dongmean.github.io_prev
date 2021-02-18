@@ -5,4 +5,19 @@
 @charset "utf-8";
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+
 @import "minimal-mistakes"; // main partials
+
+
+//customize font - Nanum Gothic from google font
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+//add academicons 
+@import url(academicons.min.css);
+
+//customize the color of icon "linked in"
+.social-icons {
+  .fa-linkedin {
+    color: #363636;
+  }
+}
